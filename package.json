@@ -40,6 +40,12 @@
                 "aliases": ["OMT", "omt"],
                 "extensions": [".omt"],
                 "configuration": "./configurations/omt.language-configuration.json"
+            },
+            {
+                "id": "unitspec",
+                "aliases": ["UNITSPEC", "unitspec"],
+                "extensions": [".unitspec.ts"],
+                "configuration": "./configurations/unitspec.language-configuration.json"
             }
         ],
         "grammars": [
@@ -72,6 +78,10 @@
             {
                 "language": "omt",
                 "path": "./snippets/omt.snippets.json"
+            },
+            {
+                "language": "unitspec",
+                "path": "./snippets/unitspec.snippets.json"
             }
         ]
     }
